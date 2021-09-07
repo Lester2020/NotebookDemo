@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A286E58826E740FC008E7D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E58726E740FC008E7D71 /* AppDelegate.swift */; };
+		A286E58C26E740FC008E7D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E58B26E740FC008E7D71 /* ViewController.swift */; };
+		A286E58F26E740FC008E7D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A286E58D26E740FC008E7D71 /* Main.storyboard */; };
+		A286E59126E74100008E7D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A286E59026E74100008E7D71 /* Assets.xcassets */; };
+		A286E59426E74100008E7D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A286E59226E74100008E7D71 /* LaunchScreen.storyboard */; };
+		A286E59C26E7423D008E7D71 /* YZNoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E59B26E7423D008E7D71 /* YZNoteCardView.swift */; };
+		A286E59E26E74581008E7D71 /* YZNoteCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E59D26E74581008E7D71 /* YZNoteCardListView.swift */; };
+		A286E5A026E745AF008E7D71 /* YZCardViewReusePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E59F26E745AE008E7D71 /* YZCardViewReusePool.swift */; };
+		A286E5A226E74717008E7D71 /* YZCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A286E5A126E74717008E7D71 /* YZCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A286E58426E740FC008E7D71 /* YZNoteBookDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZNoteBookDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A286E58726E740FC008E7D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A286E58B26E740FC008E7D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A286E58E26E740FC008E7D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A286E59026E74100008E7D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A286E59326E74100008E7D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A286E59526E74100008E7D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A286E59B26E7423D008E7D71 /* YZNoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNoteCardView.swift; sourceTree = "<group>"; };
+		A286E59D26E74581008E7D71 /* YZNoteCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZNoteCardListView.swift; sourceTree = "<group>"; };
+		A286E59F26E745AE008E7D71 /* YZCardViewReusePool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZCardViewReusePool.swift; sourceTree = "<group>"; };
+		A286E5A126E74717008E7D71 /* YZCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YZCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A286E58126E740FC008E7D71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A286E57B26E740FC008E7D71 = {
+			isa = PBXGroup;
+			children = (
+				A286E58626E740FC008E7D71 /* YZNoteBookDemo */,
+				A286E58526E740FC008E7D71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A286E58526E740FC008E7D71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A286E58426E740FC008E7D71 /* YZNoteBookDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A286E58626E740FC008E7D71 /* YZNoteBookDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A286E58726E740FC008E7D71 /* AppDelegate.swift */,
+				A286E58B26E740FC008E7D71 /* ViewController.swift */,
+				A286E59B26E7423D008E7D71 /* YZNoteCardView.swift */,
+				A286E59D26E74581008E7D71 /* YZNoteCardListView.swift */,
+				A286E59F26E745AE008E7D71 /* YZCardViewReusePool.swift */,
+				A286E5A126E74717008E7D71 /* YZCard.swift */,
+				A286E58D26E740FC008E7D71 /* Main.storyboard */,
+				A286E59026E74100008E7D71 /* Assets.xcassets */,
+				A286E59226E74100008E7D71 /* LaunchScreen.storyboard */,
+				A286E59526E74100008E7D71 /* Info.plist */,
+			);
+			path = YZNoteBookDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A286E58326E740FC008E7D71 /* YZNoteBookDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A286E59826E74100008E7D71 /* Build configuration list for PBXNativeTarget "YZNoteBookDemo" */;
+			buildPhases = (
+				A286E58026E740FC008E7D71 /* Sources */,
+				A286E58126E740FC008E7D71 /* Frameworks */,
+				A286E58226E740FC008E7D71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZNoteBookDemo;
+			productName = YZNoteBookDemo;
+			productReference = A286E58426E740FC008E7D71 /* YZNoteBookDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A286E57C26E740FC008E7D71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A286E58326E740FC008E7D71 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = A286E57F26E740FC008E7D71 /* Build configuration list for PBXProject "YZNoteBookDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A286E57B26E740FC008E7D71;
+			productRefGroup = A286E58526E740FC008E7D71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A286E58326E740FC008E7D71 /* YZNoteBookDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A286E58226E740FC008E7D71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A286E59426E74100008E7D71 /* LaunchScreen.storyboard in Resources */,
+				A286E59126E74100008E7D71 /* Assets.xcassets in Resources */,
+				A286E58F26E740FC008E7D71 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A286E58026E740FC008E7D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A286E5A026E745AF008E7D71 /* YZCardViewReusePool.swift in Sources */,
+				A286E58C26E740FC008E7D71 /* ViewController.swift in Sources */,
+				A286E5A226E74717008E7D71 /* YZCard.swift in Sources */,
+				A286E59E26E74581008E7D71 /* YZNoteCardListView.swift in Sources */,
+				A286E59C26E7423D008E7D71 /* YZNoteCardView.swift in Sources */,
+				A286E58826E740FC008E7D71 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A286E58D26E740FC008E7D71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A286E58E26E740FC008E7D71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A286E59226E74100008E7D71 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A286E59326E74100008E7D71 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A286E59626E74100008E7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A286E59726E74100008E7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A286E59926E74100008E7D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 983HKNLZ6N;
+				INFOPLIST_FILE = YZNoteBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lesterchen.YZNoteBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A286E59A26E74100008E7D71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 983HKNLZ6N;
+				INFOPLIST_FILE = YZNoteBookDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lesterchen.YZNoteBookDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A286E57F26E740FC008E7D71 /* Build configuration list for PBXProject "YZNoteBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A286E59626E74100008E7D71 /* Debug */,
+				A286E59726E74100008E7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A286E59826E74100008E7D71 /* Build configuration list for PBXNativeTarget "YZNoteBookDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A286E59926E74100008E7D71 /* Debug */,
+				A286E59A26E74100008E7D71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A286E57C26E740FC008E7D71 /* Project object */;
+}
